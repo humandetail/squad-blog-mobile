@@ -16,6 +16,9 @@ export default defineNuxtRouteMiddleware(async (to, _from) => {
   switch (settings.value?.status) {
     case 0:
     case 3:
+      if (to.name === 'maintenance') {
+        return navigateTo('/')
+      }
       break
     case 1:
     case 2:

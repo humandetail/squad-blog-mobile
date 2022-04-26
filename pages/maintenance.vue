@@ -6,7 +6,8 @@
 
 <script setup lang="ts">
 definePageMeta({
-  title: '维护中'
+  title: '维护中',
+  layout: false
 })
 </script>
 
