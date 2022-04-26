@@ -1,0 +1,118 @@
+// 样式初始化文件
+::selection {
+  background-color: var(--brand-color);
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --wrapper-width: 9.6rem;
+  --aside-width: 3rem;
+  --aside-padding: .16rem;
+  --border-radius: .16rem;
+}
+
+html {
+  font-size: calc(100vw / 3.75);
+  font-family: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-sans;
+}
+
+body {
+  margin: 0;
+  padding: .44rem 0 0 0;
+  line-height: 1.6;
+  font-size: .14rem;
+  color: var(--primary-text);
+  background-color: var(--background-color);
+}
+
+html,
+body,
+#__nuxt,
+#__nuxt > div,
+#__nuxt > div > main {
+  height: 100%;
+}
+
+a {
+  color: var(--brand-color);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+ul,
+ol,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: .28rem;
+}
+
+h2 {
+  font-size: .24rem;
+}
+
+h3 {
+  font-size: .22rem;
+}
+
+h4 {
+  font-size: .2rem;
+}
+
+h5 {
+  font-size: .18rem;
+}
+
+h6 {
+  font-size: .16rem;
+}
+
+p {
+  margin: 0;
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+input,
+button {
+  outline: none;
+}
+
+canvas {
+  display: block;
+}
